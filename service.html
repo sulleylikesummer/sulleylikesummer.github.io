@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Home</title>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/jquery.min.js"></script>
+	<link href='#css?family=Amaranth:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+	<link href='#css?family=Signika+Negative:300,400,600,700|Amaranth:400,700,700italic,400italic' rel='stylesheet'
+		type='text/css'>
+</head>
+
+<body>
+	<!---->
+	<div class="header">
+		<div class="container">
+			<div class="top-header">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt="" /></a>
+				</div>
+				<div class="top-menu">
+					<span class="menu"> </span>
+					<ul>
+						<li><span class="pic1"></span><a href="index.html">Home</a></li>
+						<li><span class="pic2"></span><a href="about.html">About Us</a></li>
+						<li class="active"><span class="pic3"></span><a href="service.html">Services</a></li>
+						<li><span class="pic4"></span><a href="contact.html">Contact Us</a></li>
+						<div class="clearfix"></div>
+					</ul>
+					<!--script-nav-->
+					<script>
+						$("span.menu").click(function () {
+							$(".top-menu ul").slideToggle("slow", function () {
+							});
+						});
+					</script>
+					<!--script-nav-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Services -->
+	<div class="services">
+		<div class="container">
+			<h1>Services</h1>
+			<div class="services-grids">
+				<div class="col-md-9 services-left">
+					<div class="services-left-grids">
+						<div class="col-md-6 services-left-grid">
+							<h3>Biodiversity</h3>
+							<p>China has established more than 2,600 nature reserves, covering more than 15 percent of the country's land area. </p>
+							<a class="more-btn" href="#">More</a>
+						</div>
+						<div class="col-md-6 services-left-grid">
+							<h3>Water</h3>
+							<p>MINTO is looking for effective solutions to strike a balance between meeting the needs of survival and development and protecting freshwater resources.</p>
+							<a class="more-btn" href="#">More</a>
+						</div>
+						<div class="col-md-6 services-left-grid">
+							<br>
+							<h3>Climate</h3>
+							<p>The energy accumulates continuously in the earth-air system, which leads to temperature rise and global warming.</p>
+							<a class="more-btn" href="#">More</a>
+						</div>
+						<div class="col-md-6 services-left-grid">
+							<br>
+							<h3>Ocean</h3>
+							<p>40% of the world's oceans are at risk from depleted fisheries, habitat degradation and increased coastal risks. </p>
+							<a class="more-btn" href="#">More</a>
+						</div>				
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-3 services-right">
+					<h3>Walk into the nature</h3>
+					<ul>
+						<li><a href="#"><span> </span>Picture Story</a></li>
+						<li><a href="#"><span> </span>Video Record</a></li>
+						<li><a href="#"><span> </span>Natural Postcard</a></li>
+						<li><a href="#"><span> </span>Ecological Platform</a></li>
+						<li><a href="#"><span> </span>Plant Museum</a></li>
+						<li><a href="#"><span> </span>Social activity</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="fotter">
+		<div class="container">
+			<p class="copyright">Copyright &copy; 2001.WWW.MINTO.ORG.CN</p>
+			<div class="social-icons">
+				<a href="#"><span class="facebook"> </span></a>
+				<a href="#"><span class="twitter"> </span></a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!---->
+</body>
+
+</html>

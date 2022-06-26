@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Home</title>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/jquery.min.js"></script>
+	<link href='#css?family=Amaranth:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+	<link href='#css?family=Signika+Negative:300,400,600,700|Amaranth:400,700,700italic,400italic' rel='stylesheet'
+		type='text/css'>
+	<style>
+		.company-right img{
+			position: absolute;
+			margin-right: 10px;
+			width: 500px;
+			height: 300px;
+		}
+		img:hover{
+			transform: scale(1.01);
+		}
+	</style>
+</head>
+
+<body>
+	<!---->
+	<div class="header">
+		<div class="container">
+			<div class="top-header">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt="" /></a>
+				</div>
+				<div class="top-menu">
+					<span class="menu"> </span>
+					<ul>
+						<li><span class="pic1"></span><a href="index.html">Home</a></li>
+						<li><span class="pic2"></span><a href="about.html">About Us</a></li>
+						<li><span class="pic3"></span><a href="service.html">Services</a></li>
+						<li class="active"><span class="pic4"></span><a href="contact.html">Contact Us</a></li>
+						<div class="clearfix"></div>
+					</ul>
+					<!--script-nav-->
+					<script>
+						$("span.menu").click(function () {
+							$(".top-menu ul").slideToggle("slow", function () {
+							});
+						});
+					</script>
+					<!--script-nav-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!---->
+	<div class="contact-section-page">
+		<div class="contact_top">
+			<div class="container">
+				<div class="col-md-6 contact_left">
+					<h2>Contact Form</h2>
+					<p>If you also love nature and would like to participate in our nature conservation program, please fill in the form below to register.</p>
+					<form>
+						<div class="form_details">
+							<input type="text" class="text" value="Name" onfocus="this.value = '';"
+								onblur="if (this.value == '') {this.value = 'Name';}">
+							<input type="text" class="text" value="Email Address" onfocus="this.value = '';"
+								onblur="if (this.value == '') {this.value = 'Email Address';}">
+							<textarea value="Message" onfocus="this.value = '';"
+								onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+							<!-- <div class="clearfix"> </div> -->
+							<input name="submit" type="submit" value="Send message">
+						</div>
+					</form>
+				</div>
+				<div class="col-md-6 company-right">
+					<div class="contact-map">
+					
+					</div>
+					<div class="company-right">
+						<div class="company_ad">
+							<h3>Contact Info</h3>
+							<address>
+								<p>email:<a>info@display.com</a></p>
+								<p>phone: +255 55 55 777</p>
+								<p>28-7-169, 2nd Ave South</p>
+								<p>Saskabush, SK S7M 1T6</p>
+							</address>
+						</div>
+						<img src="images/图片6.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!---->
+	<!-- <div class="fotter">
+		<div class="container">
+			<p class="copyright">Copyright &copy; 2001.WWW.MINTO.ORG.CN</p>
+			<div class="social-icons">
+				<a href="#"><span class="facebook"> </span></a>
+				<a href="#"><span class="twitter"> </span></a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div> -->
+	<!---->
+</body>
+
+</html>
