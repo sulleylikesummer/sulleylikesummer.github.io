@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Home</title>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/jquery.min.js"></script>
+	<link href='#css?family=Amaranth:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+	<link href='#css?family=Signika+Negative:300,400,600,700|Amaranth:400,700,700italic,400italic' rel='stylesheet'
+		type='text/css'>
+	<style>
+		.contant {
+			text-align: center;
+			margin-right: 10px;
+		}
+
+		.col-md-7 {
+			margin-left: 50px;
+		}
+	</style>
+</head>
+
+<body>
+	<!--header starts-->
+	<div class="header">
+		<div class="container">
+			<div class="top-header">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt="" /></a>
+				</div>
+				<div class="top-menu">
+					<span class="menu"> </span>
+					<ul>
+						<li class="active"><span class="pic1"></span><a href="index.html">Home</a></li>
+						<li><span class="pic2"></span><a href="about.html">About Us</a></li>
+						<li><span class="pic3"></span><a href="service.html">Services</a></li>
+						<li><span class="pic4"></span><a href="contact.html">Contact Us</a></li>
+						<div class="clearfix"></div>
+					</ul>
+					<!--script-nav-->
+					<script>
+						$("span.menu").click(function () {
+							$(".top-menu ul").slideToggle("slow", function () {
+							});
+						});
+					</script>
+					<!--script-nav-->
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="header-banner">
+			<script src="js/responsiveslides.min.js"></script>
+			<script>
+				$(function () {
+					$("#slider").responsiveSlides({
+						auto: true,
+						nav: true,
+						speed: 500,
+						namespace: "callbacks",
+						pager: true,
+					});
+				});
+			</script>
+			<div class="container2">
+				<div class="slider">
+					<div class="callbacks_container">
+						<ul class="rslides" id="slider">
+							<li>
+								<div class="sale-box">
+									<span class="on_sale title_shop">NEW</span>
+								</div>
+								<img src="images/bnr1.jpg" alt="">
+								<div class="caption">
+									<h1>Biodiversity</h1>
+									<p>One million species on earth are endangered.</p>
+								</div>
+							</li>
+							<li>
+								<div class="sale-box">
+									<span class="on_sale title_shop">NEW</span>
+								</div>
+								<img src="images/bnr2.jpg" alt="">
+								<div class="caption">
+									<h1>Water</h1>
+									<p>A quarter of the world's population faces water shortages.</p>
+								</div>
+							</li>
+							<li>
+								<div class="sale-box">
+									<span class="on_sale title_shop">NEW</span>
+								</div>
+								<img src="images/bnr3.jpg" alt="">
+								<div class="caption">
+									<h1>Climate</h1>
+									<p>Climate change impact on natural ecosystems.</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--header ends-->
+	<div class="container">
+		<div class="banner-content">
+			<p><span>Nature's dilemma </span>Today, many aspects of nature are being damaged and human life is being
+				threatened. MINTO is committed to protecting the world's nature in many aspects.</p>
+		</div>
+	</div>
+	<!--content-->
+	<div class="content">
+		<div class="container">
+			<div class="col-md-5 contact-img">
+				<img src="images/contact1.jpg" alt="" />
+			</div>
+			<div class="col-md-7 contact-info">
+				<h3>MINTO Introduction</h3>
+				<p>MINTO (MINimum Burden TO Nature) : Founded in 2001, MINTO is one of the most influential non-profit
+					natural environment protection organizations in the world. It is committed to protecting land and
+					water with important ecological value globally, safeguarding the natural environment and improving
+					human well-being. </p>
+			</div>
+			<div class="clearfix"></div>
+			<div class="col-md-7 contact-info">
+				<h3>To cherish nature is to cherish life</h3>
+				<p>Human and nature are a community of life sharing weal and woe. Every animal has its own life course;
+					Every plant has its own trace of life. The existence of all life forms a diverse, rich and balanced
+					ecosystem of the earth. If the natural environment is destroyed and the ecosystem is out of balance,
+					it will bring great suffering to human beings. The volcanic eruption in Australia in 2020 the
+					COVID-19
+					epidemic remind us that man and nature are a community of life. We must respect and protect nature.
+				</p>
+				<a href="#">Read More<span></span></a>
+			</div>
+			<div class="col-md-5 contact-img">
+				<img src="images/contact2.jpg" alt="" />
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="fotter">
+		<div class="container">
+			<p class="copyright">Copyright &copy; 2001.WWW.MINTO.ORG.CN</p>
+			<div class="social-icons">
+				<a href="#"><span class="facebook"> </span></a>
+				<a href="#"><span class="twitter"> </span></a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!---->
+</body>
+
+</html>
